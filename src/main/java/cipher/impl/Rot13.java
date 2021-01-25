@@ -1,6 +1,6 @@
-package com.martinsam.cipher.impl;
+package cipher.impl;
 
-import com.martinsam.cipher.ICipher;
+import cipher.ICipher;
 
 public class Rot13 implements ICipher<String> {
     @Override

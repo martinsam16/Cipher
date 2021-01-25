@@ -1,8 +1,6 @@
-package com.martinsam.cipher.impl;
+package cipher.impl;
 
-import com.martinsam.cipher.ICipher;
-
-import java.util.Arrays;
+import cipher.ICipher;
 
 public class ColumnTranspositionByPattern implements ICipher<byte[]> {
     private final int[] pattern;

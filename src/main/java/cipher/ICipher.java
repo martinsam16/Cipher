@@ -1,4 +1,4 @@
-package com.martinsam.cipher;
+package cipher;
 
 public interface ICipher<T> {
     boolean validate();
